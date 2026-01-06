@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="140" viewBox="0 0 520 140" fill="none">
+  <defs>
+    <linearGradient id="prg" x1="22" y1="22" x2="118" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="104" height="104" rx="26" fill="url(#prg)"/>
+  <path d="M72 39c-10 2-22 12-28 23-7 13-8 26-8 26s13-1 26-8c11-6 21-18 23-28 1-6 0-11-1-13-2-1-7-2-12 0Z" fill="#fff"/>
+  <path d="M63 66c3-3 7-3 10 0 3 3 3 7 0 10-3 3-7 3-10 0-3-3-3-7 0-10Z" fill="#0F766E"/>
+  <path d="M38 92c8 0 15-2 22-5 5-2 9-5 13-9l6-6 4 4-6 6c-5 5-10 9-17 12-8 4-16 6-25 6l3-8Z" fill="#fff" fill-opacity="0.92"/>
+  <path d="M41 98l-4 10c-1 3 2 6 5 5l10-4c-4-2-8-6-11-11Z" fill="#fff" fill-opacity="0.9"/>
+  <text x="148" y="78" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="52" font-weight="800" fill="#0F172A">PicksRocket</text>
+  <text x="148" y="108" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="18" font-weight="500" fill="#64748B">Picks y predicciones en tiempo real</text>
+</svg>

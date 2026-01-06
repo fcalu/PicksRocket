@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: wspm-edge-ui
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NEXT_PUBLIC_API_BASE
+        value: https://edgewspmfantasy.onrender.com

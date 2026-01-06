@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: 248 250 252;
+  --card: 255 255 255;
+  --text: 15 23 42;
+  --muted: 100 116 139;
+  --brand: 20 184 166;
+  --brand2: 13 148 136;
+}
+
+html, body { height: 100%; }
+body {
+  color: rgb(var(--text));
+  background: rgb(var(--bg));
+}
+
+* { -webkit-tap-highlight-color: transparent; }
+
+::-webkit-scrollbar { height: 10px; width: 10px; }
+::-webkit-scrollbar-thumb { background: rgba(2,6,23,0.18); border-radius: 999px; }
+::-webkit-scrollbar-track { background: rgba(2,6,23,0.05); }
